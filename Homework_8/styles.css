@@ -363,3 +363,141 @@ body {
         margin-bottom: 71px;
     }
 }
+
+@media (max-width: 1024px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .header_left {
+        display: flex;
+        align-items: center;
+    }
+
+    .header_left img {
+        max-width: 100%;
+    }
+    
+    .header_right {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+    }
+
+    .header_left img {
+        max-width: 100%;
+    }
+    
+    .image-left img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .content {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .image-left {
+        max-width: 386px;
+    }
+
+    .text {
+        font-size: 24px;
+    }
+    
+    .title {
+        font-size: 44px;
+    }
+    
+    .highlighting {
+        font-size: 24px;
+    }
+
+    .page_img {
+        display: none;
+    }
+
+    .grid_section {
+        gap: 20px;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+    
+    .categories_item {
+        width: 100%;
+        aspect-ratio: 232 / 167;
+    }
+ 
+    .categories_accesories {
+        width: calc(300% + 40px);
+        aspect-ratio: 735 / 116;
+        height: auto; 
+    }
+
+    .categories_women {
+        background: url(img/forwomen.svg), rgba(33, 22, 22, 0.70);
+        background-blend-mode: hue;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .categories_men {
+        background: url(img/formen.png), rgba(33, 22, 22, 0.70);
+        background-blend-mode: hue;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .categories_kids {
+        background: url(img/forkids.svg), rgba(33, 22, 22, 0.70);
+        background-blend-mode: hue;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .categories_accesories {
+        background: url(img/accesories.svg), rgba(33, 22, 22, 0.70);
+        background-blend-mode: hue;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .heading {
+        margin-top: 109px;
+        margin-bottom: 72px;
+        padding-left: 16px;
+        padding-right: 16px;
+        text-align: center;
+    }
+
+    .slogan {
+        margin-top: 3px;
+        margin-bottom: 72px;
+    }
+
+    .items-content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+
+    .item {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .subject, .desc, .price {
+        text-align: left;
+    }
+
+    .item_img {
+        width: 100%;
+        height: auto;
+    }
+
+    .footer {
+        margin-bottom: 71px;
+    }
+}
